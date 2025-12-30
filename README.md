@@ -92,5 +92,34 @@ is considered non-compliant.
 │   ├─ phase-2.md
 │   └─ phase-3.md
 │
-└─ legal/
-    └─ usage-boundaries.md
+├─ legal/
+|    └─ usage-boundaries.md
+├─splice-infrastructure/
+│   touch splice-infrastructure/workflows/{actor-placement.md,task-assignment.md,environment-interaction.md,scene-consistency.md,role-governance.md}
+touch splice-infrastructure/video-enhancements/{natural-lighting.md,camera-movements.md,skin-texture-effects.md,audio-sync.md,props-physics.md}
+touch splice-infrastructure/ai-behavior/{fatigue-model.md,motion-variance.md,decision-timing.md,environmental-awareness.md}
+touch splice-infrastructure/samples/{action-scene-spec.md,teaser-video-next.md,minimal-prompt-next.md}
+├─ workflows/
+│   ├─ actor-placement.md           # Rules for placing AI in physical and virtual spaces
+│   ├─ task-assignment.md           # Assigning AI to realistic tasks and routines
+│   ├─ environment-interaction.md   # How AI interacts with objects, props, and people
+│   ├─ scene-consistency.md         # Ensuring continuity and physical plausibility
+│   └─ role-governance.md           # Defining role hierarchy, priorities, and permissions
+│
+├─ video-enhancements/
+│   ├─ natural-lighting.md          # Light simulation rules for realism
+│   ├─ camera-movements.md          # Cinematic angles, shaky hand, POV, tracking
+│   ├─ skin-texture-effects.md      # Sweat, oil, imperfections
+│   ├─ audio-sync.md                 # Lip sync, footsteps, ambient matching
+│   └─ props-physics.md              # Objects’ movement, weight, and collision
+│
+├─ ai-behavior/
+│   ├─ fatigue-model.md             # AI human fatigue simulation
+│   ├─ motion-variance.md           # Variations in walking, running, gestures
+│   ├─ decision-timing.md           # Realistic delays and errors
+│   └─ environmental-awareness.md   # AI awareness of surroundings
+│
+└─ samples/
+    ├─ action-scene-spec.md         # Step-by-step example for an action sequence
+    ├─ teaser-video-next.md         # Updated teaser video incorporating realism rules
+    └─ minimal-prompt-next.md       # Minimal input examples for AI video testing
